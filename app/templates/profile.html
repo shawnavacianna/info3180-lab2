@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="profile-panel">
+    <div class="details-header">
+        <div class="image">
+            <img id="img" src="{{ url_for('static', filename='pic.JPG') }}" alt="Shawna Vacianna">
+        </div>
+        <h2><b>Shawna Vacianna</b></h2>
+        <p>@svacianna</p>
+        <p>St Catherine, Jamaica</p>
+        <p>Joined {{ date }}</p>
+        <hr>
+    </div>
+    <div class="details">
+        <p id="info" >I am a young, vibrant computer science student. I enjoy reading and listening to music. I also enjoy photography and the culinary arts.</p>
+        <hr>
+        <div class="profile-content">
+            <ul>
+                <li>
+                    <div class="digits">2500</div>
+                    Followers
+                </li>
+                <li>
+                    <div class="digits">234</div>
+                    Following
+                </li>
+                <li>
+                    <div class="digits">7</div>
+                    Posts
+                </li>
+            </ul>
+        </div>
+    </div> 
+    <button class="button">Follow</button>
+    
+</div>
+{% endblock %}

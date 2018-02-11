@@ -1,3 +1,80 @@
+
 body {
-    padding-top: 5rem;
+    padding-top: 50px;
+}
+
+#img {
+    position: relative;
+    border-radius: 50%;
+    width:25%;
+    height: 25%;
+}
+
+#info{
+    color:black;
+}
+
+
+.button {
+    position:relative;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.image{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p, h2 {
+  font-family: fantasy;
+  text-align:center;  
+  color: white;
+}
+
+.profile-panel {
+    position: relative;
+    margin-left: 350px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.details {
+    padding: 20px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.details-header {
+    padding: 50px 50px;
+    background-color: #000000;
+    border-bottom: 1px solid #D0D0D0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.profile-content ul li {
+    float: left;
+    padding: 10px 32px;
+    text-align: center;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #ffffff;
+}
+.profile-content ul li:first-child {
+    border-left: none;
+}
+.profile-content ul li:last-child {
+    border-right: none;
+}
+.profile-content ul li .digits {
+    font-weight: bold;
+    font-size: 16px;
 }
